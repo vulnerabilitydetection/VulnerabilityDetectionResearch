@@ -1,0 +1,12 @@
+searchSpaceFile: search_space.json
+trialCommand: python main.py
+trialGpuNumber: 1
+trialConcurrency: 3
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
+  useActiveGpu: True
+  maxTrialNumberPerGpu: 3

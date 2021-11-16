@@ -1,0 +1,6 @@
+sklearn==0.0
+pandas==0.25.2
+torch==1.9
+pyg==2.0.1
+gensim==4
+tqdm
